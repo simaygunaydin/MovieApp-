@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFEF;
+    background-image: url(landscape.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: center;
+    color: #A5B68D;
+    text-align: center;
+    padding: 100px;
+    border-radius: 15px;
+    font-size: larger;
+    font-family: "Fondamento", cursive;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.container h2 {
+    font-style: italic;
+    color: #DA8359;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container input {
+    border: 1px #DA8359;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container button {
+    border: 1px #5b072e;
+    padding: 10px;
+    cursor: grab;
+    background-color: #DA8359;
+    color: #A5B68D;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: "Fondamento", cursive;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #DA8359;
+}
+
+.row placeholder {
+    font-family: "Fondamento", cursive;
+}
+
+.container input::placeholder {
+    font-family: "Fondamento", cursive;
+    font-size: 15px;
+}
+
+.sifremi-unuttum {
+    color: aliceblue;
+}
+
+.kayit-ol {
+    color: aliceblue;
+}

@@ -1,0 +1,92 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFEFEF;
+            background-image: url(landscape.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .container {
+            display: inline-block;
+            vertical-align: center;
+            color: #A5B68D;
+            background-color: transparent;
+            backdrop-filter: blur(20px);
+            border: 1px solid white;
+            text-align: center;
+            padding: 100px;
+            border-radius: 15px;
+            font-size: larger;
+            font-family: "Fondamento", cursive;
+        }
+        
+        .container h2 {
+            font-style: italic;
+            color: white;
+            text-align: center;
+            border-radius: 15px;
+        }
+        
+        .container label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .container input {
+            border: 1px #B87C4C;
+            border-radius: 25px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .container button {
+            border: 1px #5b072e;
+            padding: 10px;
+            cursor: grab;
+            background-color: #B87C4C;
+            color: #A5B68D;
+            margin-top: 10px;
+            border-radius: 15px;
+            font-family: "Fondamento", cursive;
+        }
+        
+        .container button:hover {
+            background-color: white;
+            color: #B87C4C;
+        }
+        
+        .row placeholder {
+            font-family: "Fondamento", cursive;
+        }
+        
+        .container input::placeholder {
+            font-family: "Fondamento", cursive;
+            font-size: 15px;
+        }
+        
+        .fa-solid {
+            color: #A5B68D;
+        }
+        
+        .sifremi-unuttum {
+            color: aliceblue;
+        }
+        
+        .kayit-ol {
+            color: aliceblue;
+        }
+        
+        .register-link p {
+            color: #A5B68D;
+        }
