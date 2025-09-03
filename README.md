@@ -83,7 +83,7 @@ Film görselleri ve arka plan resimleri
 
 git clone https://github.com/simaygunaydin/MovieApp.git
 
-2. MovieApp klasörüne gidin.
+2. MovieApp klasörüne gidin. !!! Lütfen ZIP dosyasını ayıklayın.
 
 3. movieapp.html dosyasını tarayıcıda açın.
 
